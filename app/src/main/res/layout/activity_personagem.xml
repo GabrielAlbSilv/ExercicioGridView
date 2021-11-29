@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Personagem">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:id="@+id/ImgPerso"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/knight_perfil"
+            />
+        <TextView
+            android:id="@+id/idNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nome:"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/Idad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/txtidade" />
+
+        <TextView
+            android:id="@+id/Pont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/textPont"
+            android:textAlignment="inherit"
+            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rtbPerso"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="1"
+                android:stepSize="1" />
+
+            <TextView
+                android:id="@+id/txtNumValRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="4.5"
+                android:textAlignment="inherit"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
