@@ -30,12 +30,12 @@
             android:textSize="18sp"/>
 
         <TextView
-            android:id="@+id/Idad"
+            android:id="@+id/Idade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
-            android:text="@string/txtidade" />
+            android:text="Idade:" />
 
         <TextView
             android:id="@+id/Pont"
@@ -44,7 +44,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:padding="8dp"
-            android:text="@string/textPont"
+            android:text="Pontuação: "
             android:textAlignment="inherit"
             android:textSize="18sp" />
         <LinearLayout
