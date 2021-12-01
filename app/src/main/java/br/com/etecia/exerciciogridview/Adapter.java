@@ -1,5 +1,4 @@
 package br.com.etecia.exerciciogridview;
-
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -23,8 +22,6 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         this.mContext = mContext;
         this.dado = dado;
     }
-
-
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull  ViewGroup parent, int viewType) {
@@ -74,14 +71,11 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
         public ViewHolder(@NonNull View itemView) {
 
             super(itemView);
-
             tvNome = itemView.findViewById(R.id.idNome);
             tvIdade = itemView.findViewById(R.id.idIdad);
             tvPontuacao = itemView.findViewById(R.id.idPont);
             imgPers = itemView.findViewById(R.id.ImgPerso);
             cardView = itemView.findViewById(R.id.idCardView);
-
-
         }
     }
 }

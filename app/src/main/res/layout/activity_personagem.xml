@@ -44,7 +44,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:padding="8dp"
-            android:text="Pontuação: "
+            android:text="Posição: "
             android:textAlignment="inherit"
             android:textSize="18sp" />
         <LinearLayout
@@ -71,7 +71,5 @@
                 android:textAlignment="inherit"
                 android:textSize="18sp" />
         </LinearLayout>
-
-
     </LinearLayout>
     </LinearLayout>

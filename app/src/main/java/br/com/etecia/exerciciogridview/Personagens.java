@@ -1,5 +1,4 @@
 package br.com.etecia.exerciciogridview;
-
 public class Personagens {
 
     //Atributos globais
@@ -17,7 +16,6 @@ public class Personagens {
     }
 
     //Métodos de acesso - getters e setters
-
 
     public String getNome() {
         return nome;
@@ -51,3 +49,4 @@ public class Personagens {
         this.miniatura = miniatura;
     }
 }
+

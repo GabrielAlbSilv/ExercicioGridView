@@ -24,7 +24,6 @@ public class Personagem extends AppCompatActivity {
         txtpontuacao = findViewById(R.id.Pont);
         imageper = findViewById(R.id.ImgPerso);
 
-
         Intent intent = getIntent();
 
         String nome, idade, pontuacao;
@@ -39,7 +38,10 @@ public class Personagem extends AppCompatActivity {
         txtidade.setText(idade);
         txtpontuacao.setText(pontuacao);
         imageper.setImageResource(miniatura);
-
-
     }
 }
+
+
+
+
+
